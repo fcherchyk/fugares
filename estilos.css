@@ -5,15 +5,12 @@ body {
     padding: 0;
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav {
-        justify-content: center;
-        margin-top: 10px;
-    }
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -25,29 +22,33 @@ nav {
     display: flex;
 }
 
-@media (max-width: 768px) {
-    nav a {
-        margin: 5px;
-    }
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    transition: background-color 0.3s;
 }
 
 nav a:hover {
     background-color: #e4e4e4;
 }
 
+/*
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+*/
+
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     background-color: white;
     padding: 15px;
     max-width: 600px;
     margin: 15px auto;
-}
-
-@media (min-width: 768px) {
-    .container {
-        grid-template-columns: repeat(3, 1fr);
-    }
 }
 
 button {
