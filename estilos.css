@@ -33,11 +33,22 @@ nav a:hover {
     background-color: #e4e4e4;
 }
 
+/*
 .container {
     max-width: 800px;
     margin: 20px auto;
     background-color: white;
     padding: 20px;
+}
+*/
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+    padding: 15px;
+    max-width: 600px;
+    margin: 15px auto;
 }
 
 button {
