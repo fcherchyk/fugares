@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: black;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #e4e4e4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+}
+
+button {
+    background-color: olive;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #556b2f;  /* Un verde oliva un poco más oscuro */
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Estilos específicos para la página de cuidados */
+.texto-cuidados {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
