@@ -33,23 +33,14 @@ nav a:hover {
     background-color: #e4e4e4;
 }
 
-/*
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: white;
-    padding: 20px;
-}
-*/
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     background-color: white;
     padding: 15px;
-    max-width: 600px;
+    max-width: 1404px;  /* Ajustado al tamaño de tus imágenes */
     margin: 15px auto;
+    box-sizing: border-box;
 }
+
 
 button {
     background-color: olive;
@@ -81,6 +72,12 @@ img {
     max-width: 100%; /* Asegurarse de que ocupe todo el espacio del contenedor padre */
     margin: auto;
     overflow: hidden; /* Esto es para que si las imágenes son demasiado grandes, no se desborden */
+}
+
+/* Añadir estilos para el contenedor de los puntos de navegación */
+.slideshow-container + div {
+    text-align: center;
+    margin-top: 10px; 
 }
 
 .mySlides {
