@@ -48,7 +48,7 @@ nav a:hover {
 
 
 button {
-    background-color: olive;
+    background-color: #B0E0E6;
     border: none;
     padding: 10px 20px;
     color: white;
@@ -61,7 +61,7 @@ button {
 
 
 button:hover {
-    background-color: #B0E0E6;  /* Un verde oliva un poco más oscuro */
+    background-color: #9ACDCD;  /* Un verde oliva un poco más oscuro */
 }
 
 img {
