@@ -105,3 +105,19 @@ img {
 .active {
     background-color: #717171;
 }
+/* Cambios para que las imágenes se ajusten al tamaño completo del contenedor */
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+/* Ajustes para posicionar los controles del carrusel debajo de las imágenes */
+.carousel-control-prev, .carousel-control-next {
+    top: auto;
+    bottom: -50px; /* O el valor que necesites para posicionamiento */
+}
+
+/* Ajustes para los indicadores (los puntos) */
+.carousel-indicators {
+    bottom: -40px; /* O el valor que necesites para posicionamiento */
+}
