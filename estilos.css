@@ -18,9 +18,6 @@ header h1 {
     margin: 0;
 }
 
-nav {
-    display: flex;
-}
 
 nav a {
     text-decoration: none;
