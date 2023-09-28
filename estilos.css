@@ -37,7 +37,7 @@ nav a:hover {
 .container {
     background-color: white;
     padding: 15px;
-    max-width: 1404px;
+    max-width: 640px;
     margin: 15px auto;
     box-sizing: border-box;
     display: block; /* Añadido para asegurarse de que el contenedor no utilice grid */
@@ -54,7 +54,11 @@ button {
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 button:hover {
     background-color: #556b2f;  /* Un verde oliva un poco más oscuro */
