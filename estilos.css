@@ -76,22 +76,23 @@ img {
 }
 
 
-/* Styles for Slideshow */
 .slideshow-container {
-    max-width: 600px;
     position: relative;
+    max-width: 100%; /* Asegurarse de que ocupe todo el espacio del contenedor padre */
     margin: auto;
+    overflow: hidden; /* Esto es para que si las imágenes son demasiado grandes, no se desborden */
 }
 
 .mySlides {
-    display: none;
+    display: none; /* Escondemos todas las diapositivas por defecto */
 }
 
-img {
+.mySlides img {
     width: 100%;
     height: auto;
 }
 
+/* Los puntos de navegación */
 .dot {
     height: 15px;
     width: 15px;
@@ -104,20 +105,4 @@ img {
 
 .active {
     background-color: #717171;
-}
-/* Cambios para que las imágenes se ajusten al tamaño completo del contenedor */
-.carousel img {
-    width: 100%;
-    height: auto;
-}
-
-/* Ajustes para posicionar los controles del carrusel debajo de las imágenes */
-.carousel-control-prev, .carousel-control-next {
-    top: auto;
-    bottom: -50px; /* O el valor que necesites para posicionamiento */
-}
-
-/* Ajustes para los indicadores (los puntos) */
-.carousel-indicators {
-    bottom: -40px; /* O el valor que necesites para posicionamiento */
 }
