@@ -24,11 +24,14 @@ nav a {
     padding: 10px 20px;
     color: black;
     transition: background-color 0.3s;
+    display: inline-block;  /* Hace que se trate como un bloque pero en una línea */
+    margin-right: 10px;     /* Agrega margen a la derecha para separarlos */
 }
 
 nav a:hover {
     background-color: #e4e4e4;
 }
+
 
 
 .container {
@@ -38,6 +41,8 @@ nav a:hover {
     margin: 15px auto;
     box-sizing: border-box;
     display: block; /* Añadido para asegurarse de que el contenedor no utilice grid */
+    ustify-content: center; /* Alineación horizontal */
+    align-items: center;     /* Alineación vertical */
 }
 
 
