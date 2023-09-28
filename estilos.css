@@ -33,13 +33,16 @@ nav a:hover {
     background-color: #e4e4e4;
 }
 
+
 .container {
     background-color: white;
     padding: 15px;
-    max-width: 1404px;  /* Ajustado al tamaño de tus imágenes */
+    max-width: 1404px;
     margin: 15px auto;
     box-sizing: border-box;
+    display: block; /* Añadido para asegurarse de que el contenedor no utilice grid */
 }
+
 
 
 button {
